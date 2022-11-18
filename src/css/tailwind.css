@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+input {
+  text-align: center;
+  font-size: 20px;
+}
+
+.big-font input {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.bg-gradient-math {
+  background: rgb(45, 220, 253);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 161, 192, 0.346) 0%,
+    rgba(34, 193, 195, 0.6839110644257703) 100%
+  );
+}
